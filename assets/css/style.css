@@ -1,0 +1,497 @@
+/* MOCHAMAD FARRAS FAUZAN
+J3D118091 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+@font-face {
+    font-family: logisoso;
+    src: url("../fonts/Logisoso.ttf");
+}
+
+body {
+    background: #171717;
+    color: white;
+    font-family: logisoso;
+}
+
+/* GO TOP BUTTON */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+/* NAVBAR OLD*/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand{
+    float: left !important;
+}
+
+
+
+.icon-bar {
+    width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+    margin-top: 4px;
+    margin-left: 5px;
+
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 150px;
+    background: #b22c27;
+    width: 55px;
+    height: 55px;
+    margin: 10px 20px;
+    padding-top: 0;
+}
+
+.navbar-collapse {
+    background: #171717;
+    color: white !important;
+    padding: 0px 10px;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+   
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+   
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+   
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
+/* NAVBAR NEW */
+
+/* SECTION 1 */
+
+
+
+.section1 {
+    background-image: url("../images/bg_001.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+.overlay-s1 {
+    height: 100%;
+    width: 100%;
+    background: rgba(163, 37, 33, 0.9);
+}
+
+.title-s1 {
+    background-image: url("../images/bg_001.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    
+}
+
+.mask-text {
+    padding-top: 200px;
+    background-image: url("../images/bg_001.jpg");
+    background-size: cover;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.grid-s1{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.s1-text1{
+    -webkit-text-fill-color: white;
+    text-align: right;
+}
+
+.s1-text2{
+    
+}
+/* 
+  MOCHAMAD FARRAS FAUZAN
+  J3D118091 
+  */
+#abc {
+    font-size: 300px;
+    text-align: right;
+    /* background: coral; */
+}
+
+#pcs {
+    padding-top: 75px;
+}
+
+#pcs h1 {
+    font-size: 55px;
+    text-align: left;
+}
+
+.s1-text3 {
+    -webkit-text-fill-color: white;
+}
+
+#news {
+    margin-right: 10px;
+    background-image: url("../images/bg_002.png");
+    background-size: cover;
+    margin-top: -5px;
+    /* background: yellow; */
+    padding:0px 40px ;
+    height: 35px;
+    
+}
+
+#news h5 {
+    margin-top: 5px;
+}
+
+
+.debug-bg1 {
+    background: dodgerblue;
+    color: yellow;
+}
+
+.debug-bg2 {
+    background: yellow;
+    color: dodgerblue;
+}
+
+.grid-s1-item2 {
+    margin-top: 73px;
+}
+
+/* SECTION 2 */
+
+.carousel-caption {
+    text-align: unset;
+    margin-bottom: 50px;
+}
+
+.carousel-caption .slash {
+    font-size: 100px;
+    color: #e53732;
+}
+.carousel-caption .type {
+    margin-top: 25px;
+}
+
+.carousel-caption .price h2 {
+    font-family: sans-serif;
+}
+
+.carousel-indicators {
+    margin: 0;
+    
+}
+
+.carousel-indicators li {
+    width: 100%;
+    height: 50px;
+    text-indent: unset;
+    margin: 0;
+    background: #000000;
+    opacity: 1;
+}
+
+.carousel-indicators li h5 {
+    margin-top: auto;
+}
+
+.carousel-indicators li .indicators-black{
+    background: #000000;
+    height: 80px;
+    text-align: center;
+    margin-top: -3px;
+}
+
+.carousel-indicators li .indicators-black h5,
+.carousel-indicators li .indicators-black h3 {
+    display: inline;
+    line-height: 80px;
+}
+
+.carousel-indicators .active {
+    background: #b22c27;
+}
+
+
+
+/* SECTION 3 */
+.section3-black{
+    background: #171717;
+    width: 100%;
+    height: 300px;
+}
+.section3 {
+    background: #e53732;
+    color: white;
+    width: 100%;
+    min-height: 500px;
+    padding-bottom: 50px;
+    
+}
+
+.section3 .container #s3-title {
+    margin-top: -80px;
+}
+
+.section3 .container img {
+    margin-top: -100px;
+}
+
+.section3 .container p{
+    margin-top: 50px;
+}
+
+.section3 .button {
+    border: 1px solid #ffffff;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#s3-title {
+    /* margin-top: -80px; */
+    /* color: #118091 */
+}
+#s3-title2 {
+    font-size: 80px;
+}
+
+.section3 img {
+    transition: 0.3s;
+}
+
+.section3 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+/* SECTION 4 */
+
+.section4 {
+    padding: 80px 0px;
+}
+
+.section4 .container > h1 {
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.section4 .flex-fill h2,.section4 .flex-fill h5{
+    padding: 0px 20px;
+}
+
+.section4 h2 i {
+    font-weight: bolder;
+    margin-right: 10px;
+    color: #b22c27;
+}
+
+.section4 img {
+    transition: 0.3s;
+}
+
+.section4 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+/* SECTION 5 */
+
+.section5 {
+    /* padding: 50px 0px; */
+    min-height: 700px;
+}
+
+.section5 .container > h1 {
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.section5 .card{
+    background: none !important;
+}
+
+.section5 .card .btn {
+    color: white;
+    width: 100%;
+}
+
+.section5 .card-header {
+    background: none !important;
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    padding-bottom: 0px;
+}
+
+
+.section5 .card-header #q {
+    background-color: #b22c27;
+    padding: 2px 10px;
+    margin-right: 20px;
+}
+
+/* SECTION 6 */
+.section6 iframe {
+    width: 100%;
+}
+
+/* SECTION 7 */
+.section7 {
+    min-height: 300px;
+}
+
+.section7 #grey {
+    background-color: #333333;
+    width: 100%;
+    min-height: 200px;
+}
+.section7 #grey .box {
+    width: 200px;
+    height: 80px;
+    background-color: #b4b4b4;
+    text-align: center;
+    margin:50px 50px;
+    border-radius: 5px;
+    
+}
+
+.section7 #grey .box h5 {
+    line-height: 80px;
+}
+
+.section7 #red {
+    background: #e53732;
+    min-height: 60px;
+}
+
+.section7 #red .item h5 {
+    line-height: 60px;
+    margin-right: 10px;
+}
+
+.section7 #red .button {
+    color: white;
+    background-color: #b22c27;
+    text-decoration: none;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    margin: 0px 3px;
+    padding: 0px 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #pcs {
+        padding: 0;
+    }
+
+    #pcs h1 {
+        margin: 0px 10px;
+    }
+
+    #abc {
+        margin-bottom: -80px;
+    }
+    #news {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    #news-content {
+        padding: 0px 40px;
+    }
+
+    .carousel-indicators h5,
+    .carousel-indicators h3{
+        font-size: 1.2em;
+    }
+
+    .carousel-caption {
+        text-align: unset;
+        margin-bottom: 50px;
+    }
+    
+    .carousel-caption .slash {
+        font-size: 80px;
+        color: #e53732;
+    }
+    .carousel-caption .type {
+        margin-top: 12.5px;
+    }
+    
+    .carousel-caption .price h2,
+    .carousel-caption .price h4,
+    .carousel-caption .price h5 {
+        font-size: 15px;
+        
+    }
+
+    
+
+    #black {
+        font-size: 10px;
+    }
+
+    #red h5 {
+        font-size: 10px;
+    }
+
+    #red a {
+        font-size: 10px;
+    }
+}
